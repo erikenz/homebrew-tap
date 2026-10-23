@@ -2,26 +2,26 @@
 class McpCtl < Formula
   desc "One config file for all your MCP servers"
   homepage "https://github.com/erikenz/mcp-ctl"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/erikenz/mcp-ctl/releases/download/v0.1.0/mcp-ctl-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fa70c1bc04ce241114d580af6c63e7615d2010522925e2efe84f586818878b9e"
+      url "https://github.com/erikenz/mcp-ctl/releases/download/v0.1.1/mcp-ctl-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "49e524c0d95ed7b41af90eb804d01186ef8a54b47a73511aba69c0c3d4368e9a"
     else
-      url "https://github.com/erikenz/mcp-ctl/releases/download/v0.1.0/mcp-ctl-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "380727a97cfc1aa35c5f730eddd6cc5dc3dc137a7c0ed3fc4e45bbe72c487bbb"
+      url "https://github.com/erikenz/mcp-ctl/releases/download/v0.1.1/mcp-ctl-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "9d6c217bbee158b4f4737e3c68daca4c7ff6cd6dd63250554e13f47f7ac7988b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/erikenz/mcp-ctl/releases/download/v0.1.0/mcp-ctl-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "163ea6aa4de8135e3c0cea6f3d94e5ef8a7a18c2bd36725c3a9f01a7877ea357"
+      url "https://github.com/erikenz/mcp-ctl/releases/download/v0.1.1/mcp-ctl-0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b103f2b33f97241fb1b82c1aff4925a6ff0c0dcab375debed4113d29afb11828"
     else
-      url "https://github.com/erikenz/mcp-ctl/releases/download/v0.1.0/mcp-ctl-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0418130a1b5d56924bbbeec9eee2157c19f5402bd913602cff6d841751542900"
+      url "https://github.com/erikenz/mcp-ctl/releases/download/v0.1.1/mcp-ctl-0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "013741d674af6902a22da309b3981b5fd72ae4b57c6410008e1bd26988ca062f"
     end
   end
 
